@@ -1,0 +1,18 @@
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+
+# macOS 관련
+.DS_Store
+
+# 기타
+*.log
+*.sqlite3
+
+# Docker
+*.dockerignore
