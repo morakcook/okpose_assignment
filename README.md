@@ -50,9 +50,7 @@ python manage.py runserver
 
 
 ## DOC URL
-```
-[http://localhost:8000/doc/](http://localhost:8000/doc/)
-```
+    [http://localhost:8000/doc/](http://localhost:8000/doc/)
 
 ## 4. Postman Export 결과
 ### 1. CREATE
