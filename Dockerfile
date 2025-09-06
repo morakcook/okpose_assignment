@@ -11,11 +11,14 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # 의존성 설치
+#1. requirements.txt 읽기
 COPY requirements.txt .
+#2. requirements.txt 내용 모듈들 설치
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 프로젝트 소스 복사
 COPY . .
 
 # 컨테이너 기본 명령
+# 서버 실행
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
