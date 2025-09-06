@@ -24,3 +24,6 @@ docker run -d -p 8000:8000 okpose_assignment
 상품 PATCH: http://localhost:8000/shop/product/1/
 API 문서: http://localhost:8000/doc/
 ```
+
+## CODE COV 뱃지
+[![codecov](https://codecov.io/github/morakcook/okpose_assignment/graph/badge.svg?token=E7AILJHUWX)](https://codecov.io/github/morakcook/okpose_assignment)
